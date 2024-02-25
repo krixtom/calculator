@@ -1,0 +1,56 @@
+body {
+    color:rgb(255, 58, 9);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #15141a;
+
+}
+.screen {
+    height: 40px;
+    width:160px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+
+}
+
+.screen-container {
+    display: flex;
+    gap: 0.6em;
+}
+
+
+
+.clear {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.number,
+.operator,
+.decimal,
+.equals {
+    height: 50px;
+    width: 50px;
+    margin: 3px
+}
